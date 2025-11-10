@@ -1,11 +1,11 @@
 import React from "react";
 import ProfilerImg from "../../assets/Images/MangeshProfileEdit.jpg";
+// public/resume/Mangesh_Wagh_Resume.pdf
 
 function HeroSection() {
   return (
     <>
       <section className="bg-gradient-to-r mt-2.5 from-gray-900 via-green-900 to to-black text-white flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-16 md:py-24 ">
-        {/* left side section  */}
         <div className="md:w-1/2 space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold text-green-400 ">
             Hi, I am Mangesh Wagh 👋
@@ -20,15 +20,9 @@ function HeroSection() {
             real-world problems through clean and efficient code.
           </p>
           <div className="flext space-x-4 pt-4">
-            {/* <a
-              href="#contact"
-              className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-2xl font-medium transition duration-300"
-            >
-              Contact Me
-            </a> */}
-
             <a
-              href="/Mangesh_Wagh_Resume.pdf"
+              href="/resume/Mangesh_Wagh_Resume.pdf"
+              download="Mangesh_Wagh_Resume.pdf"
               className="border border-green-400 hover:bg-green-500 hover:text-white text-green-400 px-6 py-3 rounded-2xl font-medium transition duration-300"
             >
               Download Resume
