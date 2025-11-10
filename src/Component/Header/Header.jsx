@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NameLogo from "./NameLogo";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,44 +33,45 @@ export default function Header() {
             <ul className="text-amber-50 flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0  ">
               <li>
                 {/* <a href="#">Home</a> */}
-                <a
-                  href="#"
+                <Link
+                  // href="#"
+                  to="/"
                   class="relative text-gray-300 text-lg font-medium transition duration-300 group hover:text-blue-400"
                 >
                   Home
                   {/* <!-- Underline animation --> */}
                   <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                </Link>
               </li>
 
-
-
-              {/* <li>
-                <a
-                  href="#"
+              <li>
+                <Link
+                  to="/Contact"
                   class="relative text-gray-300 text-lg font-medium transition duration-300 group hover:text-blue-400"
                 >
                   Contact
                   <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-              </li> */}
-
+                </Link>
+              </li>
 
               <li>
                 {/* <a href="#">About</a> */}
-                <a
-                  href="#"
+                <Link
+                  // href="#"
+                  to="/about"
                   class="relative text-gray-300 text-lg font-medium transition duration-300 group hover:text-blue-400"
                 >
                   About
                   <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                </Link>
               </li>
               <li>
                 {/* <a href="#">Github</a> */}
 
                 <a
-                  href="#"
+                  href="https://github.com/Mangeshuwagh"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   class="relative text-gray-300 text-lg font-medium transition duration-300 group hover:text-blue-400"
                 >
                   GitHub
@@ -80,7 +82,9 @@ export default function Header() {
                 {/* <a href="#">Linkden</a> */}
 
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/mangesh-wagh-12b333269/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   class="relative text-gray-300 text-lg font-medium transition duration-300 group hover:text-blue-400"
                 >
                   Linkden

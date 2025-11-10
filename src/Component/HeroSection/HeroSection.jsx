@@ -10,7 +10,7 @@ function HeroSection() {
           <h1 className="text-4xl md:text-6xl font-bold text-green-400 ">
             Hi, I am Mangesh Wagh 👋
           </h1>
-          <h2 className="text-2xl md:text-3xl font-semibold text-gray-200">
+          <h2 className="text-2xl md:text-3xl font-semibold  bg-gradient-to-r from-blue-400 via-purple-400 to-pink-500  text-transparent bg-clip-text drop-shadow-md ">
             Java Full Stack Devloper
           </h2>
           <p className="text-gray-300 text-lg leading-relaxed">
@@ -20,12 +20,12 @@ function HeroSection() {
             real-world problems through clean and efficient code.
           </p>
           <div className="flext space-x-4 pt-4">
-            <a
+            {/* <a
               href="#contact"
               className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-2xl font-medium transition duration-300"
             >
               Contact Me
-            </a>
+            </a> */}
 
             <a
               href="/Mangesh_Wagh_Resume.pdf"
