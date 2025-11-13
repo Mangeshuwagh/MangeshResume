@@ -8,7 +8,8 @@ function HeroSection() {
       <section className="bg-gradient-to-r mt-2.5 from-gray-900 via-green-900 to to-black text-white flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-16 md:py-24 ">
         <div className="md:w-1/2 space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold text-green-400 ">
-            Hi, I am Mangesh Wagh 👋
+            {/* Hi, I am Mangesh Wagh 👋 */}
+            Hi, I am .......... 👋
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold  bg-gradient-to-r from-blue-400 via-purple-400 to-pink-500  text-transparent bg-clip-text drop-shadow-md ">
             Java Full Stack Devloper
